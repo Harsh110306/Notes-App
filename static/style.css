@@ -1,0 +1,80 @@
+body {
+  background: #f7f9fc;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  font-size: 18px; /* Increased base font size */
+}
+
+.container {
+  background: #fff;
+  width: 600px; /* slightly wider */
+  border-radius: 16px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px 40px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.note-form textarea {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 18px; /* larger text inside textarea */
+  resize: none;
+  line-height: 1.5;
+}
+
+.note-form button {
+  width: 100%;
+  margin-top: 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px; /* larger button text */
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.note-form button:hover {
+  background: #0056b3;
+}
+
+.notes-list {
+  margin-top: 25px;
+}
+
+.note-card {
+  background: #f1f4f9;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px; /* bigger note text */
+}
+
+.delete-btn {
+  color: #ff4444;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.no-notes {
+  text-align: center;
+  color: #666;
+  font-size: 18px;
+}
